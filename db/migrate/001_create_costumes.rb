@@ -16,8 +16,7 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
             t.decimal :price
             t.text :image_url
             t.text :size
-            t.datetime :created_at
-            t.datetime :updated_at
+            t.timestamps
         end
     end 
 
